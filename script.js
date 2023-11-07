@@ -25,7 +25,7 @@ document.querySelector('.check').addEventListener('click', () => {
 
         if(score > highscore) {
             highscore = score;
-            document.querySelector('.hightscore').textContent = highscore;
+            document.querySelector('.highscore').textContent = highscore;
         }
 
     // When guess is too high
